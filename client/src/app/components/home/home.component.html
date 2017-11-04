@@ -1,0 +1,120 @@
+<div class="jumbotron text-center">
+  <h1>Learn MEAN stack</h1>
+  <p class="lead">Welcome to the MEAN Stack Application by
+    <strong>Sriharsha</strong>
+  </p>
+  <div class="headings">
+    <li>
+      <h4>Best courses and resources from the Web at one place.</h4>
+    </li>
+    <li>
+      <h4>Post your thoughts or questions in the blog.</h4>
+    </li>
+    <li>
+      <h4>More resources to be added soon...</h4>
+    </li>
+  </div>
+  <div>
+    <a *ngIf="!authService.loggedIn()" routerLink='/register' class="btn btn-primary">Register to blog!</a>
+    <a *ngIf="!authService.loggedIn()" routerLink='/login' class="btn btn-default">Login</a>
+    <a *ngIf="authService.loggedIn()" routerLink='/blog'>
+      <button class="btn btn-success">View Blogs</button>
+    </a>
+  </div>
+</div>
+
+<div class="box-container">
+  <div class="one box" id="bb">
+    <img src="../../../assets/images/pluralsight.jpg" alt="pluralsight image" width="140" height="140">
+    <div class="caption">
+      <h3>Free Pluralsight Subscription</h3>
+      <p>You can register for a pluralsight account through visual studio website to get 3 month free subscription. This an
+        excellent resource where you can get access to plethora of high quality courses through pluralsight fully free for
+        3 months. Courses are divided into beginner, intermediate and advanced level cousres. You need to have microsoft account to register. Check
+        <a href=" https://my.visualstudio.com/Benefits/?mkt=en-us&workflowid=devprogram&wt.mc_id=o~msft~profile~lifecyclemail_devprogram_attach"
+          target="_blank">this</a> link.</p>
+    </div>
+  </div>
+
+  <div class="two box">
+    <img src="../../../assets/images/js-logo.png" alt="Youtube image" width="140" height="140">
+    <div class=caption>
+      <h3>JavaScript tutorial series by Kudvenkat</h3>
+      <p>This is a very good beginner level course which covers the basics of JavaScript with clear explanation.
+        <a href="https://www.youtube.com/watch?v=PMsVM7rjupU&list=PL6n9fhu94yhUA99nOsJkKXBqokT3MBK0b" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="three box">
+    <img src="../../../assets/images/js-logo.png" alt="Youtube image" width="140" height="140">
+    <div class=caption>
+      <h3>Build 30 JavaScript Apps</h3>
+      <p>Learn JavaScript by building 30 JavaScript Apps. Great source for beginners to learn more about JavaScript.
+        <a href="https://www.youtube.com/watch?v=PMsVM7rjupU&list=PL6n9fhu94yhUA99nOsJkKXBqokT3MBK0b" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="four box">
+    <img src="../../../assets/images/angular2.jpg" alt="youtube image" width="140" height="130">
+    <div class=caption>
+      <h3>Angular 2 tutorial series by Kudvenkat</h3>
+      <p>This is an excellent beginner level tutorial series. The series covers of all basic concepts of Angular 2.
+        <a href="https://www.youtube.com/watch?v=WWQZCDegWHg&list=PL6n9fhu94yhWqGD8BuKuX-VTKqlNBj-m6" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="five box">
+    <img src="../../../assets/images/nodejs.png" alt="Generic placeholder image" width="140" height="140">
+    <div class=caption>
+      <h3>Node JS from Net Ninja</h3>
+      <p>This is a beginner level course which covers the basics of Node JS frameworks.
+        <a href="https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="six box">
+    <img src="../../../assets/images/mongodb.png" alt="Youtube image" width="140" height="140">
+    <div class=caption>
+      <h3>Mongo DB from Net Ninja</h3>
+      <p>This is good beginner level course which covers the basics of Mongo DB.
+        <a href="https://www.youtube.com/watch?v=9OPP_1eAENg&list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="seven box">
+    <h2 class="text-center">Crash Courses</h2>
+    <div class=caption>
+      <h3>Web development crash courses from Traversy Media.</h3>
+      <p>Traversy Media is a youtube channel which covers web developement crash courses pretty. These courses are very helpful
+        when one wants to get started quickly.
+        <a href="https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8" target="_blank">Click here</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="eight box">
+    <h2 class="text-center">MEAN Stack Application using Angular 2/4</h2>
+    <div class=caption>
+      <h3>Build MEAN Stack App with Angular 2/4 by David Acosta</h3>
+      <p>This is an excellent series where you can build a MEAN stack App using Angular 2/4 from the scratch.
+        <a href="https://www.youtube.com/watch?v=G_xHi0jywmc&list=PL3vQyqzqjZ62zMxa0veah_CHMgwOM4JWD" target="_blank"> Click here</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="nine box">
+    <h2 class="text-center">MEAN Stack Application using Angular JS</h2>
+    <div class=caption>
+      <h3>Build MEAN Stack App with Angular JS by David Acosta</h3>
+      <p>This is a very good series to learn building a MEAN stack App using Angular JS from the scratch.
+        <a href="https://www.youtube.com/watch?v=-gd73iczlS8&list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d" target="_blank"> Click here</a>
+      </p>
+    </div>
+  </div>
+</div>

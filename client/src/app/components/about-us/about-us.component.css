@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-flow: column;
+}
+.box {
+    background: #eee;
+    flex: 1 0 150px;
+    margin: 10px;
+    justify-content: center;
+}
+h3{
+    padding:0;
+    margin:0;
+}
+.box h3{
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.box p{
+    padding:20px;
+    box-sizing: border-box;
+}
